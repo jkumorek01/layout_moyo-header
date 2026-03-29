@@ -4,16 +4,13 @@
 
 .img {
   box-sizing: border-box;
+  height: 40px;
+  display: block;
 }
 
 .logo {
   display: flex;
   align-items: center;
-}
-
-.logo img {
-  height: 40px;
-  display: block;
 }
 
 body {
@@ -75,5 +72,5 @@ body {
 }
 
 .is-active {
-  color: var(--blue) !important;
+  color: var(--blue);
 }
