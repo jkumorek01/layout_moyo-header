@@ -2,7 +2,7 @@
   --blue: #00acdc;
 }
 
-* {
+.img {
   box-sizing: border-box;
 }
 
@@ -22,6 +22,7 @@ body {
   font-weight: 500;
   letter-spacing: 0;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -60,7 +61,7 @@ body {
 }
 
 .link:hover {
-  color: #00acdc;
+  color: var(--blue);
 }
 
 .is-active::after {
